@@ -1,0 +1,33 @@
+{
+  "name": "webinar-bot",
+  "version": "1.0.0",
+  "description": "\"Un asistente virtual para impulsar tus ventas utilizando Dialogflow\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "virtual",
+    "assistant",
+    "chatbot",
+    "dialogflow",
+    "google",
+    "ia"
+  ],
+  "author": "Luis Rivas",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/dialogflow": "^5.3.0",
+    "@google-cloud/local-auth": "^2.1.0",
+    "@sendgrid/mail": "^7.7.0",
+    "actions-on-google": "^2.14.0",
+    "axios": "^1.2.3",
+    "cors": "^2.8.5",
+    "dialogflow-fulfillment": "0.6.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.4.0",
+    "googleapis": "^105.0.0",
+    "nodemailer": "^6.9.0"
+  }
+}
